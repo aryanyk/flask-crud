@@ -1,0 +1,16 @@
+// docker build images
+
+docker build -t flask:v1 .
+-t target 
+
+docker image ls
+
+docker tag --help // provides help
+
+
+ // how to push to remote repo of coker
+ docker tag flask:v1 aryanyk/flask:v1
+
+ flask tagging to help docker fetch
+
+  docker push aryanyk/flask:v1 tag name
